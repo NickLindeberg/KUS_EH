@@ -1,0 +1,97 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background: white;
+  color: #1A1A4D;
+  height: 80px;
+  padding: 0 25px;
+  border-bottom: 5px solid grey;
+}
+
+header img {
+  padding: 0
+  height: 30px;
+  width: 30px;
+  float: left;
+  padding-top: 20px;
+}
+
+header button {
+  buttoncolor: white;
+  float: right;
+}
+
+header h1 {
+  float: left;
+  text-indent: -9999px;
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+}
+
+header nav {
+  float: right;
+}
+
+
+.desktop-header__logo {
+    position: absolute;
+    left: 175px;
+    height: 60px;
+    width: 160px;
+}
+
+nav li {
+  display: inline-block;
+  border-style: dashed;
+}
+
+nav li:hover {
+  background: #3F8DA7;
+  color: white;
+  cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 30%;
+}
+
+.left img {
+  width: 90%;
+}
+
+.right {
+  width: 70%;
+}
+.right img {
+  width: 90%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+  background: white;
+  color: #1A1A4D;
+  height: 80px;
+  padding: 0 25px;
+  border-top: 5px solid grey;
+  text-align: : center;
+}
